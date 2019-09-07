@@ -1,0 +1,93 @@
+ul,ol,
+div, p, dl, dt, dd,li,dl,dt,dd,
+h1,h2,h3,h4,h5,h6,
+hgroup,p,blockquote,figure,form,fieldset,input,legend,pre,abbr,button{
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-family: Arial,"Microsoft YaHei",sans-serif
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+*{
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+img {
+  border: 0;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+ul{
+  list-style: none;
+}
+
+/*header*/
+header{
+  width: 1100px;
+  height: 80px;
+  background:#fff;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+/*content*/
+.content {
+  width: 1100px;
+  background: #fff;
+  margin: auto;
+}
+.staffWrap{
+  background:#ccffff;
+  float: left;
+  width: 180px;
+  border-radius: 5px;
+}
+.staffWrap li:not(:last-child){
+  border-bottom: 2px white solid;
+}
+.staffWrap li{
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+.workTime{
+  height: 500px;
+  width: 910px;
+  float: left;
+  margin-left: 10px;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+/*workTime*/
+.staffTimeWrap{
+  height: 25px;
+  line-height: 25px;
+  border-bottom: #f4f4f4 4px solid;
+}
+.staffTimeWrap div{
+  display: inline-block;
+}
+.workDay{
+  background: #FEC6C5;
+  width: 40px;
+  padding-left: 5px;
+  margin-right: 20px;
+}
+.endTime{
+  margin-right: 20px;
+}
