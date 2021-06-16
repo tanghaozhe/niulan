@@ -1,6 +1,3 @@
-[![Node.js CI](https://github.com/tanghaozhe/Newline/actions/workflows/node.js.yml/badge.svg)](https://github.com/tanghaozhe/Newline/actions/workflows/node.js.yml)
-# worktime
-
 > A Vue.js project
 
 ## Build Setup
